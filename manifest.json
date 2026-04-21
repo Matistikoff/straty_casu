@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Straty času",
+  "version": "1.0",
+  "description": "Blokuje prístup na vybrané webové stránky okamžitým zatvorením karty.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "straty-casu@matistikoff",
+      "strict_min_version": "57.0"
+    }
+  },
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/icon.svg"
+  },
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
