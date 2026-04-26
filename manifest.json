@@ -10,7 +10,17 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "straty-casu@matistikoff",
-      "strict_min_version": "57.0"
+      "strict_min_version": "79.0",
+      "data_collection_permissions": {
+        "personally_identifying_info": false,
+        "health_info": false,
+        "financial_info": false,
+        "authentication_info": false,
+        "search_history_info": false,
+        "location_info": false,
+        "browsing_history_info": false,
+        "technical_and_interaction_info": false
+      }
     }
   },
   "browser_action": {
@@ -18,8 +28,8 @@
     "default_icon": "icons/icon.svg"
   },
   "icons": {
-    "48": "icons/icon.svg",
-    "96": "icons/icon.svg"
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
   },
   "background": {
     "scripts": ["background.js"]
