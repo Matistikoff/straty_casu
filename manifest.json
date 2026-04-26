@@ -10,16 +10,9 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "straty-casu@matistikoff",
-      "strict_min_version": "79.0",
+      "strict_min_version": "140.0",
       "data_collection_permissions": {
-        "personally_identifying_info": false,
-        "health_info": false,
-        "financial_info": false,
-        "authentication_info": false,
-        "search_history_info": false,
-        "location_info": false,
-        "browsing_history_info": false,
-        "technical_and_interaction_info": false
+        "required": []
       }
     }
   },
